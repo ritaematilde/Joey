@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Imagem da Cerveja no Estilo Pixel Art -->
+    <img src="beer.png" alt="Imagem de cerveja estilo pixel art" class="imagem-cerveja">
+    
+    <h1>Open this beer!</h1>
+    <p>There is a surprise inside</p>
+    
+    <!-- Botão que, ao ser clicado, redireciona para 'text.html' -->
+    <button id="OpenIt">Open here</button>
+
+    <script>
+        document.getElementById('OpenIt').addEventListener('click', function() {
+            window.location.href = 'text.html';
+        });
+    </script>
+</body>
+</html>
+
+
